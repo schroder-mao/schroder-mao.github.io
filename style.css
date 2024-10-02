@@ -1,4 +1,3 @@
-/* General Styles */
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body {
@@ -12,11 +11,10 @@ body {
     align-items: center;
 }
 
-/* Hero Section */
 .hero {
-    padding: 120px 20px; /* Increased padding for more breathing room */
+    padding: 120px 20px; 
     text-align: center;
-    animation: fadeIn 1s ease-in-out; /* Added fade-in animation */
+    animation: fadeIn 1s ease-in-out; 
 }
 
 .hero .profile-pic {
@@ -36,9 +34,9 @@ body {
     margin-top: 10px;
 }
 
-/* Projects Section */
+
 .projects-section {
-    padding: 80px 20px; /* Adjusted padding */
+    padding: 80px 20px; 
     width: 100%;
     max-width: 1000px;
 }
@@ -48,7 +46,7 @@ body {
     text-align: center;
     border-bottom: 2px solid #e31b1b;
     padding-bottom: 10px;
-    margin-bottom: 40px; /* Increased space below the title */
+    margin-bottom: 40px; 
 }
 
 .projects-grid {
@@ -63,7 +61,7 @@ body {
     border: 2px dashed #e31b1b;
     transition: transform 0.3s, box-shadow 0.3s;
     text-align: center;
-    animation: fadeIn 1s ease-in-out; /* Added fade-in animation */
+    animation: fadeIn 1s ease-in-out; 
 }
 
 .project-card:hover {
@@ -86,12 +84,11 @@ body {
     margin: 10px 0;
 }
 
-/* Footer */
 footer {
     padding: 40px 20px;
     text-align: center;
     border-top: 2px solid #e31b1b;
-    margin-top: 40px; /* Added space above footer for separation */
+    margin-top: 40px; 
 }
 
 .social-links {
@@ -106,7 +103,7 @@ footer {
 }
 
 .social-links img {
-    width: 45px; /* Slightly increased size */
+    width: 45px;
     height: 45px;
     transition: transform 0.3s;
 }
@@ -121,7 +118,6 @@ footer p {
     color: #e31b1b;
 }
 
-/* Line Divider Below Links */
 footer .links-divider {
     width: 50%;
     height: 1px;
@@ -129,7 +125,6 @@ footer .links-divider {
     margin: 20px auto;
 }
 
-/* Animations */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -141,7 +136,6 @@ footer .links-divider {
     }
 }
 
-/* Responsive Adjustments */
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 18px;
