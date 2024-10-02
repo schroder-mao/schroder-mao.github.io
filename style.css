@@ -1,0 +1,170 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: #0c0c0c;
+    color: #e31b1b;
+    font-family: 'Press Start 2P', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #151515;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 2px solid #e31b1b;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    color: #e31b1b;
+    font-size: 18px;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-links a {
+    color: #e31b1b;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar .nav-links a:hover {
+    color: #ff1c1c;
+}
+
+/* Hero Section */
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #e31b1b;
+}
+
+.hero h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.hero p {
+    font-size: 14px;
+}
+
+/* Projects Section */
+.projects-section {
+    padding: 50px 20px;
+}
+
+.section-title {
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 2px solid #e31b1b;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: #222;
+    padding: 20px;
+    border: 2px dashed #e31b1b;
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    border-color: #ff1c1c;
+}
+
+.project-card h3 a {
+    color: #e31b1b;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.project-card h3 a:hover {
+    color: #ff1c1c;
+}
+
+.project-card p {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #e31b1b;
+    color: #0c0c0c;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 12px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ff1c1c;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background-color: #151515;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #e31b1b;
+}
+
+footer a {
+    color: #e31b1b;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff1c1c;
+}
