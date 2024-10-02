@@ -14,8 +14,9 @@ body {
 
 /* Hero Section */
 .hero {
-    padding: 100px 20px;
+    padding: 120px 20px; /* Increased padding for more breathing room */
     text-align: center;
+    animation: fadeIn 1s ease-in-out; /* Added fade-in animation */
 }
 
 .hero .profile-pic {
@@ -37,7 +38,7 @@ body {
 
 /* Projects Section */
 .projects-section {
-    padding: 60px 20px;
+    padding: 80px 20px; /* Adjusted padding */
     width: 100%;
     max-width: 1000px;
 }
@@ -47,7 +48,7 @@ body {
     text-align: center;
     border-bottom: 2px solid #e31b1b;
     padding-bottom: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 40px; /* Increased space below the title */
 }
 
 .projects-grid {
@@ -62,6 +63,7 @@ body {
     border: 2px dashed #e31b1b;
     transition: transform 0.3s, box-shadow 0.3s;
     text-align: center;
+    animation: fadeIn 1s ease-in-out; /* Added fade-in animation */
 }
 
 .project-card:hover {
@@ -89,6 +91,7 @@ footer {
     padding: 40px 20px;
     text-align: center;
     border-top: 2px solid #e31b1b;
+    margin-top: 40px; /* Added space above footer for separation */
 }
 
 .social-links {
@@ -103,8 +106,8 @@ footer {
 }
 
 .social-links img {
-    width: 40px;
-    height: 40px;
+    width: 45px; /* Slightly increased size */
+    height: 45px;
     transition: transform 0.3s;
 }
 
@@ -116,6 +119,26 @@ footer p {
     margin-top: 20px;
     font-size: 12px;
     color: #e31b1b;
+}
+
+/* Line Divider Below Links */
+footer .links-divider {
+    width: 50%;
+    height: 1px;
+    background-color: #e31b1b;
+    margin: 20px auto;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Responsive Adjustments */
